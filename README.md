@@ -315,6 +315,16 @@ MIST_Insert_Html("html element id", "<h1>Basic HTML which will be inserted</h1>"
 ```
 
 
+## MIST_Load_Page(path) (Function)
+<code>MIST_Load_Page</code> takes the html file patn and then renders the html file in the same page without reloading the webpage. also make it sure that the file you are going to render is your own web projecf & local file othervise it can return errors.
+
+<b>Example</b>
+```javascript
+// Remdering myFile.html in the same page without reloasing the website
+MIST_Load_Page("myFile.html"); // Make sure to replace myFile.html with actuall HTML FILE 
+```
+
+
 
 
 # Congratulations - You have learned the MIST API VERSION 0.A.1.F (BETA TEST) , This framework will be updated soon and global version release will be arrive soon.
